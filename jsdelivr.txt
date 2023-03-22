@@ -1,0 +1,12 @@
+https://cdn.jsdelivr.net/gh/jquery/jquery/
+
+
+https://github.com/cfbcursos/Novo-Javascript/blob/main/login_cfbcursos.js
+
+https://cdn.jsdelivr.net/gh/conta_github/nome_repositério/arquivo
+
+https://cdn.jsdelivr.net/gh/cfbcursos/Novo-Javascript/login_cfbcursos.js
+
+--------------------------------------------------------------------------------
+
+https://replit.com/@MarceloSuarez6/cfbcursosapireactexemplo1
