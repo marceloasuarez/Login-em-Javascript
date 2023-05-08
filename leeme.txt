@@ -1,0 +1,26 @@
+Criar uma conta em https://replit.com e criar um Repls com este codigo se quiser ter um proprio=
+var http = require('http');
+var url = require('url');
+var request = require('request');
+http.createServer(function(req, res) { 
+res.setHeader('Access-Control-Allow-Origin', '*');
+res.writeHead(200, { 'Content-Type': 'application/json' });
+
+let parametros=url.parse(req.url,true);
+  
+let mat=parametros.query.matricula;
+let pas=parametros.query.senha; 
+let dados=null
+  
+if(mat=="123" & pas=="321"){
+dados = { 
+nome: "Bruno",
+  acesso:10
+}
+} 
+  
+res.end(JSON.stringify(dados));
+}).listen(8080);
+
+-----------------------------------------------------------------------
+Como opção alternativa se pode criar uma conta no site https://www.jsdelivr.com/ e por o seu arquivo JS para torna-lo publico.
