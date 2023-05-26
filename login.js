@@ -12,10 +12,10 @@ class Login{
 	static config={
 		cor:null, //"048"
 		img:null, //"./logo.jpg"
-		endpoint:null,//https://login.marcelosuarez6.repl.co
+		endpoint:null,//https://login.marcelosuarez9.repl.co
 	};
-	//static endpoint="https://login.marcelosuarez6.repl.co";
-	//https://login.marcelosuarez6.repl.co/?matricula=123&senha=321
+	//static endpoint="https://login.marcelosuarez9.repl.co";
+	//https://login.marcelosuarez96.repl.co/?matricula=123&senha=321
 	
 
 	//static login=(callback_ok,callback_naook,config=null)=>{
@@ -157,7 +157,7 @@ logoLogin.appendChild(imglogoLogin);
 		const mat=document.querySelector("#f_username").value;
 		const pas=document.querySelector("#f_senha").value;
 		
-		//const endpoint=`https://login.marcelosuarez6.repl.co/?matricula=${mat}&senha=${pas}`;
+		//const endpoint=`https://login.marcelosuarez9.repl.co/?matricula=${mat}&senha=${pas}`;
 		const endpoint=`${this.config.endpoint}/?matricula=${mat}&senha=${pas}`;
 		fetch(endpoint)
 		.then(res=>res.json())
