@@ -243,6 +243,3 @@ logoLogin.appendChild(imglogoLogin);
 
 //res.end(JSON.stringify(dados));
 // }).listen(8080);
-
-// Exemplo de chamada
-// https://loginv1.cfbcursos.repl.co/?matricula=123&senha=321
