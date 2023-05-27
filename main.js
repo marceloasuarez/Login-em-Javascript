@@ -3,7 +3,7 @@ import { Cxmsg } from "./cxmsg.js";
 
 //Login.login("123","321");
 
-//const callback_ok=()=>{
+const callback_ok=()=>{
 
 	//alert("ok");
 }
@@ -29,5 +29,5 @@ endpoint:"https://login.marcelosuarez9.repl.co"
 }
 
 //Login.login(callback_ok,callback_naook,configlogin);
-Login.login(null,callback_naook,configlogin);
+Login.login(callback_ok,callback_naook,configlogin);
 
